@@ -40,7 +40,7 @@
                         if (isset($data)) {
                             $temp = $data['main']['temp'];
                             $description = $data['weather'][0]['description'];
-                            echo "<p>The temperature is {$temp}°C & it has $description.</p>";
+                            echo "<p>The temperature is {$temp}°C with $description.</p>";
                             echo '☀️';
                         } else {
                             die("Error decoding data.");
