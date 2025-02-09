@@ -1,5 +1,3 @@
-<?php
-?>
 <html>
     <header>
         <title>Weather App</title>
